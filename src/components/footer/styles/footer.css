@@ -1,0 +1,35 @@
+body html {
+  background-color: #121111;
+}
+
+.footer {
+  background-color: #222222;
+  text-align: center;
+  width: 100%;
+}
+
+.footer-title {
+  color: white;
+}
+
+.footer-links {
+  margin: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 65%;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.footer-link {
+  color: white;
+  font-size: 1.5rem;
+  padding-bottom: 20px;
+}
+
+.footer-link:hover {
+  color: white;
+}
+/*# sourceMappingURL=footer.css.map */

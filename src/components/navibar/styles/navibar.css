@@ -1,0 +1,25 @@
+body html {
+  background-color: #121111;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.navibar-div p {
+  margin: 0px;
+}
+
+.navibar-div {
+  background-color: #39aeab;
+  text-align: right;
+  padding-right: 3%;
+  font-size: 1.3rem;
+  color: #dedede;
+}
+
+.navibar-icons {
+  margin: 0px 1%;
+}
+/*# sourceMappingURL=navibar.css.map */

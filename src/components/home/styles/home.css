@@ -1,0 +1,64 @@
+body html {
+  background-color: #121111;
+}
+
+p {
+  color: #dedede;
+}
+
+.home-div {
+  background-color: #111111;
+}
+
+.g-hr {
+  height: 1px;
+  background: -webkit-gradient(linear, left top, right top, from(#00241b), color-stop(20%, #3e7271), color-stop(40%, #39aeab), color-stop(50%, #8fefdf), color-stop(60%, #39aeab), color-stop(80%, #3e7271), to(#00241b));
+  background: linear-gradient(90deg, #00241b 0%, #3e7271 20%, #39aeab 40%, #8fefdf 50%, #39aeab 60%, #3e7271 80%, #00241b 100%);
+  margin: 0px;
+  border: none;
+}
+
+.h-h1 {
+  color: #39aeab;
+  font-size: 4rem;
+  margin: 0px;
+}
+
+.h-h2 {
+  color: #dedede;
+  margin: 0px;
+}
+
+.h-h3 {
+  color: #dedede;
+  margin: 0px;
+}
+
+.h-h4 {
+  color: blue;
+  margin: 0px;
+}
+
+.h-h5 {
+  color: blue;
+  margin: 0px;
+}
+
+.h-a {
+  margin: 0px;
+  padding: 0px;
+}
+
+.subtitle {
+  color: #39aeab;
+}
+
+.subtitle span {
+  color: #dedede;
+}
+
+.home-myskills {
+  width: 75%;
+  margin: 0px auto;
+}
+/*# sourceMappingURL=home.css.map */

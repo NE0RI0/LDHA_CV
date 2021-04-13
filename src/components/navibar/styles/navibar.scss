@@ -1,0 +1,17 @@
+@import '../../../global/styles/global.scss';
+
+.navibar-div p{
+    margin: 0px;
+}
+
+.navibar-div{
+    background-color: $base-color;
+    text-align: right;
+    padding-right: 3%;
+    font-size: 1.3rem;
+    color: $base-white;
+}
+
+.navibar-icons{
+    margin: 0px 1%;
+}
