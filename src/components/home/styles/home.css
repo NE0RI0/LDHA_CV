@@ -56,6 +56,7 @@ p {
 
 .subtitle {
   color: #39aeab;
+  padding: 1rem 0;
 }
 
 .subtitle span {
@@ -65,5 +66,14 @@ p {
 .home-myskills {
   width: 75%;
   margin: 0px auto;
+}
+
+.home-aboutme {
+  width: 75%;
+  margin: 0px auto;
+}
+
+.home-content {
+  margin: 2rem;
 }
 /*# sourceMappingURL=home.css.map */
