@@ -14,4 +14,10 @@
 
 .navibar-icons{
     margin: 0px 1%;
+    color: $base-white;
+    color: rgba($color: #d4fffa, $alpha: 0.75);
+}
+
+.navibar-icons:hover{
+    color: rgba($color: #fff, $alpha: 1.0);
 }

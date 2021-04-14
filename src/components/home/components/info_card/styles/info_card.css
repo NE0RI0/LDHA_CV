@@ -1,3 +1,12 @@
+body html {
+  background-color: #121111;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
 .info-card-div div {
   margin: 0 1rem;
 }
@@ -10,5 +19,14 @@
 
 .info-img {
   margin: 5%;
+}
+
+.info-title {
+  margin: 1rem 0;
+  color: #dedede;
+}
+
+.info-text {
+  color: #afafaf;
 }
 /*# sourceMappingURL=info_card.css.map */

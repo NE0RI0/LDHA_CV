@@ -2,8 +2,13 @@ body html {
   background-color: #121111;
 }
 
+* {
+  margin: 0;
+  padding: 0;
+}
+
 p {
-  color: #dedede;
+  color: #a5a5a5;
 }
 
 .home-div {

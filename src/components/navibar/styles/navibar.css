@@ -21,5 +21,11 @@ body html {
 
 .navibar-icons {
   margin: 0px 1%;
+  color: #dedede;
+  color: rgba(212, 255, 250, 0.75);
+}
+
+.navibar-icons:hover {
+  color: white;
 }
 /*# sourceMappingURL=navibar.css.map */

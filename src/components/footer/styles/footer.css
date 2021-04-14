@@ -2,6 +2,11 @@ body html {
   background-color: #121111;
 }
 
+* {
+  margin: 0;
+  padding: 0;
+}
+
 .footer {
   background-color: #222222;
   text-align: center;
@@ -31,5 +36,9 @@ body html {
 
 .footer-link:hover {
   color: white;
+}
+
+.footer-icon {
+  margin: 0 0.5rem;
 }
 /*# sourceMappingURL=footer.css.map */

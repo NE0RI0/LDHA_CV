@@ -12,19 +12,20 @@ function ContactMe(){
             <div className='footer-links'>
 
                 <a className='footer-link'> 
-                    <FontAwesomeIcon icon={faLinkedin}/>
+                    <FontAwesomeIcon className='footer-icon' icon={faLinkedin}/>
                     LinkedIn
                 </a>
+                
+                <a className='footer-link'>
+                    <FontAwesomeIcon className='footer-icon' icon={faPhone}/>
+                    Phone: (+52) 656-2840193                    
+                    </a>
 
                 <a className='footer-link'>
-                    <FontAwesomeIcon icon={faEnvelopeSquare}/>
+                    <FontAwesomeIcon className='footer-icon' icon={faEnvelopeSquare}/>
                     Email
                     </a>
                     
-                <a className='footer-link'>
-                    <FontAwesomeIcon icon={faPhone}/>
-                    Phone: (+52) 656 2840193                    
-                    </a>
 
             </div>
         </div>

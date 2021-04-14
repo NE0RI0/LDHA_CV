@@ -14,8 +14,8 @@ export const InfoCard = ({title, img, text}) =>{
             <img className='info-img' src={img} alt=""/>
             </div>
             <div>
-            <h3> {title} </h3>
-            <p> {text} </p>
+            <h3 className='info-title' > {title} </h3>
+            <p className='info-text' >  {text} </p>
             <Button variant="primary" href='/python/' >Go to {title} page. </Button>
             </div>
         </div>
