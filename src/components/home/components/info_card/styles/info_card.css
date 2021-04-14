@@ -19,6 +19,8 @@ body html {
 
 .info-img {
   margin: 5%;
+  height: 180px;
+  width: 295px;
 }
 
 .info-title {

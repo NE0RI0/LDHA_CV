@@ -7,7 +7,7 @@ function handleClick(name){
     console.log(name)
 }
 
-export const InfoCard = ({title, img, text}) =>{
+export const InfoCard = ({title, img, text, direction}) =>{
     return(
         <div className='info-card-div' onClick={() => handleClick('sucess')} >
             <div>
@@ -16,7 +16,7 @@ export const InfoCard = ({title, img, text}) =>{
             <div>
             <h3 className='info-title' > {title} </h3>
             <p className='info-text' >  {text} </p>
-            <Button variant="primary" href='/python/' >Go to {title} page. </Button>
+            <Button variant="primary" href={direction} >Go to {title} page. </Button>
             </div>
         </div>
     )

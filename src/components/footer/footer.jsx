@@ -7,6 +7,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 function ContactMe(){
     return(
         <div className='footer'>
+            <hr className='g-hr'/>
             <h1 className='footer-title'> Contact Me</h1>
             <hr className='g-hr'/>
             <div className='footer-links'>
