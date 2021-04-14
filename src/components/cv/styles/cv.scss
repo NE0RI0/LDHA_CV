@@ -10,6 +10,7 @@
     justify-content: center;
     background-color: $base-background;
     padding: 1rem;
+    padding-bottom: 2rem;
 }
 
 .cv-title{
@@ -19,10 +20,11 @@
 .cv-subtitle{
     color: $base-color;
     margin: 0;
+    padding-top: 1rem;
 }
 
 .cv-body{
-
+    display: flex;
 }
 
 .cv-experience{
@@ -34,7 +36,6 @@
 }
 
 .cv-tasks{
-    width: 50%;
     padding: 0.5rem 2rem;
     color: $dark-white;
 }
@@ -49,8 +50,9 @@ ul li::before{
     color: $base-color;
     font-weight: bold;
     display: inline-block; 
-    width: 1em;
-    margin-left: -1em;
+    width: 1rem;
+    margin-left: -1.3rem;
+    font-size: 20px;
 }
 
 
@@ -75,4 +77,8 @@ ul li::before{
     width: 90%;
     margin: auto;
     border-top: 5px dotted $base-color;
+}
+
+.dark-white{
+    color: #a5a5a5c7;
 }
