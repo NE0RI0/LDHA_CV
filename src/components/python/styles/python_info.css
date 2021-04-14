@@ -1,0 +1,19 @@
+body html {
+  background-color: #121111;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  margin: 0;
+}
+
+.python-div {
+  background-color: #121111;
+  margin: 0;
+  padding: 1rem;
+}
+/*# sourceMappingURL=python_info.css.map */

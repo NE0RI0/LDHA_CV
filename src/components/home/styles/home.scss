@@ -1,8 +1,12 @@
 @import '../../../global/styles/global.scss';
 
+
+
+
 p{
     color: $dark-white ;
-    
+    text-align: justify;
+    text-justify: inter-word;
 }
 
 .home-div{

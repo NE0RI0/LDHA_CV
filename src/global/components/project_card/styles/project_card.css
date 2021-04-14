@@ -1,0 +1,19 @@
+body html {
+  background-color: #121111;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+p {
+  margin: 0;
+}
+
+.project-div {
+  background-color: #222222;
+  border-radius: 20px;
+  padding: 1rem;
+}
+/*# sourceMappingURL=project_card.css.map */

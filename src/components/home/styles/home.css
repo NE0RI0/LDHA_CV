@@ -9,6 +9,8 @@ body html {
 
 p {
   color: #a5a5a5;
+  text-align: justify;
+  text-justify: inter-word;
 }
 
 .home-div {

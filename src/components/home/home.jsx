@@ -12,9 +12,13 @@ function Home(){
             <div className='home-aboutme'>
                 <h2 className='subtitle'> <span>About</span> Me </h2>
                 <hr className='g-hr' />
-                <p className='home-content' >Hello, my name is Luis, and I am a software developer. I mainly work with python and C++, but i also have esperience in web development using frameworks like ReactJs, Django and Flask.<br/>
+                <p className='home-content' >&emsp; Hello, my name is Luis, and I am a software developer. I mainly work with python and C++, but i also have esperience in web development using frameworks like ReactJs, Django and Flask. I've worked with companies like BRP, Opticas 20-20, Tutorel and Dunas Tech, on projects that goes from web aplications to desktop aplications that icluded vision systems, ai, databases (both relational and non-relational databases.) and external hardware, some of them of my own design.<br/>
+
+                &emsp;I have a bachelor's degree in computer science from the Autonomous University of Ciudad Juarez , and multiple courses from Google digital academy and Udemy.
+
+
                 
-                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ea ab voluptatibus eius accusantium, commodi nihil dignissimos iusto illo, maxime molestiae nemo doloremque obcaecati, magnam impedit blanditiis eaque delectus minus! Quibusdam.</p>
+                </p>
                 <hr className='g-hr' />
 
             </div>

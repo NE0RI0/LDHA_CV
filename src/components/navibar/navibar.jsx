@@ -8,12 +8,9 @@ import './styles/navibar.css';
 function NaviBar(){
     return(
         <div className='navibar-div' >
-            <p >
                 <FontAwesomeIcon className='navibar-icons' icon={faFacebook}/>
                 <FontAwesomeIcon className='navibar-icons' icon={faLinkedin}/>
                 <FontAwesomeIcon className='navibar-icons' icon={faEnvelopeSquare}/>
-
-            </p>
         </div>
     )
 }

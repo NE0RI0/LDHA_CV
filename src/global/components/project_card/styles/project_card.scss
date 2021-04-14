@@ -1,0 +1,11 @@
+@import '../../../styles/global.scss';
+
+p{
+    margin: 0;
+}
+
+.project-div{
+    background-color: $light-background;
+    border-radius: 20px;
+    padding: 1rem;
+}

@@ -1,0 +1,10 @@
+{
+    "version": 3,
+    "mappings": "ACUA,AAAA,IAAI,CAAC,IAAI,CAAA;EACL,gBAAgB,EAPF,OAAO;CAQxB;;AAED,AAAA,CAAC,CAAA;EACG,MAAM,EAAE,CAAC;EACT,OAAO,EAAE,CAAC;CACb;;ADfD,AAAA,EAAE,CAAA;EACE,MAAM,EAAE,CAAC;CACZ;;AAED,AAAA,WAAW,CAAA;EACP,gBAAgB,ECHF,OAAO;EDIrB,MAAM,EAAE,CAAC;EACT,OAAO,EAAE,IAAI;CAChB",
+    "sources": [
+        "python_info.scss",
+        "../../../global/styles/global.scss"
+    ],
+    "names": [],
+    "file": "python_info.css"
+}
