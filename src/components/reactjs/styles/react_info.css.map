@@ -2,9 +2,9 @@
     "version": 3,
     "mappings": "ACUA,AAAA,IAAI,CAAC,IAAI,CAAC;EACR,gBAAgB,EAPA,OAAO;CAQxB;;AAED,AAAA,CAAC,CAAC;EACA,MAAM,EAAE,CAAC;EACT,OAAO,EAAE,CAAC;CACX;;ADfD,AAAA,EAAE,CAAC;EACD,MAAM,EAAE,CAAC;CACV;;AAED,AAAA,WAAW,CAAC;EACV,gBAAgB,ECHA,OAAO;EDIvB,MAAM,EAAE,CAAC;EACT,OAAO,EAAE,IAAI;CACd;;AAED,AAAA,mBAAmB,CAAC;EAClB,KAAK,EAAE,GAAG;EACV,MAAM,EAAE,MAAM;CACf;;AAED,AAAA,cAAc,CAAC;EACb,gBAAgB,ECdA,OAAO;CDexB",
     "sources": [
-        "python_info.scss",
+        "react_info.scss",
         "../../../global/styles/global.scss"
     ],
     "names": [],
-    "file": "python_info.css"
+    "file": "react_info.css"
 }

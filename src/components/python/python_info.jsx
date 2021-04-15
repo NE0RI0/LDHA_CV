@@ -1,5 +1,5 @@
 import React from "react";
-import { Card, CardColumns } from "react-bootstrap";
+import { Card, CardColumns, Accordion } from "react-bootstrap";
 
 import "./styles/python_info.css";
 
@@ -71,7 +71,7 @@ function Python_info() {
   ];
   return (
     <div className="python-div">
-      <div className="">
+      <div className="projects-container">
         <h1>welcomes</h1>
         <CardColumns>
           {Projects.map((project) => (
@@ -79,10 +79,18 @@ function Python_info() {
               <Card.Img variant="top" src={project.img} />
               <Card.Body className="project-card">
                 <Card.Title>{project.title}</Card.Title>
-                <Card.Text>
-                  This card has supporting text below as a natural lead-in to
-                  additional content.{" "}
-                </Card.Text>
+                {/*  */}
+                <Accordion defaultActiveKey="1">
+                    <Card className='bg-dark' >
+                        <Accordion.Toggle as={Card.Header} eventKey="0">
+                        Click me!
+                        </Accordion.Toggle>
+                        <Accordion.Collapse eventKey="0">
+                        <Card.Body>Hello! I'm the body</Card.Body>
+                        </Accordion.Collapse>
+                    </Card>
+                </Accordion>
+                {/*  */}
                 <div className="text-right blockquote-footer">
                   <small className="text-muted">
                     Someone famous in{" "}
