@@ -1,6 +1,6 @@
 import React from "react";
 import { Card, CardColumns } from "react-bootstrap";
-import ProjectCard from "../../global/components/project_card/project_card";
+
 import "./styles/python_info.css";
 
 function Python_info() {
@@ -31,26 +31,43 @@ function Python_info() {
     },
     {
       img:
-        "https://github.com/NE0RI0/LDHA_CV/blob/main/src/global/resources/img/projects/frameficador.PNG?raw=true",
-      title: "Frame Extractor",
-      about: "",
-      technologies: "",
-      status: "",
-    },
-    {
-      img: "",
+        "https://github.com/NE0RI0/LDHA_CV/blob/main/src/global/resources/img/projects/vigilance.png?raw=true",
       title: "Vigilance System",
       about: "",
       technologies: "",
       status: "",
     },
     {
-      img: "",
-      title: "",
+      img:
+        "https://github.com/NE0RI0/LDHA_CV/blob/main/src/global/resources/img/projects/QrScannerDrone.png?raw=true",
+      title: "Qr Scanner with DJI drone",
       about: "",
       technologies: "",
       status: "",
     },
+    {
+      img:
+        "https://github.com/NE0RI0/LDHA_CV/blob/main/src/global/resources/img/projects/AccessControl.PNG?raw=true",
+      title: "Access control system",
+      about: "",
+      technologies: "",
+      status: "",
+    },
+    {
+      img:
+        "https://github.com/NE0RI0/LDHA_CV/blob/main/src/global/resources/img/projects/frameficador.PNG?raw=true",
+      title: "Frame Extractor",
+      about: "",
+      technologies: "",
+      status: "",
+    },
+    // {
+    //   img: "",
+    //   title: "",
+    //   about: "",
+    //   technologies: "",
+    //   status: "",
+    // },
   ];
   return (
     <div className="python-div">
@@ -58,9 +75,9 @@ function Python_info() {
         <h1>welcomes</h1>
         <CardColumns>
           {Projects.map((project) => (
-            <Card>
+            <Card className="bg-dark text-white">
               <Card.Img variant="top" src={project.img} />
-              <Card.Body>
+              <Card.Body className="project-card">
                 <Card.Title>{project.title}</Card.Title>
                 <Card.Text>
                   This card has supporting text below as a natural lead-in to
@@ -79,8 +96,6 @@ function Python_info() {
             </Card>
           ))}
         </CardColumns>
-
-        {/* <ProjectCard></ProjectCard> */}
       </div>
     </div>
   );

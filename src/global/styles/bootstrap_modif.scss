@@ -1,7 +1,9 @@
+@import "./global.scss";
 $theme-colors: (
-    "primary": #39aeab,
-    "secondary": rgb(18, 17, 17),
+  "primary": #39aeab,
+  "secondary": rgb(18, 17, 17),
+  "dark": $light-background,
 );
 
 // @import "../../../node_modules/bootstrap/scss/bootstrap";
-@import '../../../node_modules/bootstrap/scss/bootstrap.scss';
+@import "../../../node_modules/bootstrap/scss/bootstrap.scss";
