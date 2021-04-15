@@ -7,7 +7,7 @@ function CPP_info() {
   const Projects = [
     {
       img:
-        "https://github.com/NE0RI0/LDHA_CV/blob/main/src/global/resources/img/projects/DroneTerminal.png?raw=true",
+        "https://github.com/NE0RI0/LDHA_CV/blob/main/src/global/resources/img/projects/UltrasonicControlLateral.jpeg?raw=true",
       title: "Ultrasonic Control",
       about: "",
       technologies: "Python, OpenV, Sockets",
@@ -15,7 +15,7 @@ function CPP_info() {
     },
     {
       img:
-        "https://github.com/NE0RI0/LDHA_CV/blob/main/src/global/resources/img/projects/database.png?raw=true",
+        "https://github.com/NE0RI0/LDHA_CV/blob/main/src/global/resources/img/projects/droneTesting.jpeg?raw=true",
       title: "Custom Railed Drone",
       about: "",
       technologies: "",
