@@ -22,7 +22,7 @@ function CPP_info() {
       status: "",
     },
     {
-      img: "",
+      img: "https://github.com/NE0RI0/LDHA_CV/blob/main/src/global/resources/img/projects/CustomDroneXirris.jpeg?raw=true",
       title: "Custom Drone",
       about: "",
       technologies: "",
