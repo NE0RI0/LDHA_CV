@@ -14,14 +14,16 @@ function Python_info() {
       status: "",
     },
     {
-      img: "",
+      img:
+        "https://github.com/NE0RI0/LDHA_CV/blob/main/src/global/resources/img/projects/database.png?raw=true",
       title: "Database Inspector",
       about: "",
       technologies: "",
       status: "",
     },
     {
-      img: "",
+      img:
+        "https://scontent.fcjs4-1.fna.fbcdn.net/v/t1.15752-9/s2048x2048/173971200_1403117996716961_7214619098226838291_n.png?_nc_cat=100&ccb=1-3&_nc_sid=ae9488&_nc_eui2=AeFeHi_xCSNR-Tn0-u3wxnDGIUim2X8UbHUhSKbZfxRsdSZhGb5u21jyBB9s4DNMy5WwYu0JfzMKPxmB_hlUws3t&_nc_ohc=uTktVQdxSgYAX_Njvat&_nc_ht=scontent.fcjs4-1.fna&tp=30&oh=c63adf13be5460af08299797addcbda0&oe=609E6EDF",
       title: "Integrated Writing Environment",
       about: "",
       technologies: "",
