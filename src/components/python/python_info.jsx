@@ -6,10 +6,11 @@ import "./styles/python_info.css";
 function Python_info() {
   const Projects = [
     {
-      img: "",
+      img:
+        "https://github.com/NE0RI0/LDHA_CV/blob/main/src/global/resources/img/projects/DroneTerminal.png?raw=true",
       title: "Drone Terminal",
       about: "",
-      technologies: "",
+      technologies: "Python, OpenV, Sockets",
       status: "",
     },
     {
@@ -62,7 +63,7 @@ function Python_info() {
         <CardColumns>
           {Projects.map((project) => (
             <Card>
-              <Card.Img variant="top" src="holder.js/100px160" />
+              <Card.Img variant="top" src={project.img} />
               <Card.Body>
                 <Card.Title>{project.title}</Card.Title>
                 <Card.Text>
