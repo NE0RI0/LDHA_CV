@@ -28,15 +28,9 @@ function Python_info() {
       status: "",
     },
     {
-      img: "",
+      img:
+        "https://github.com/NE0RI0/LDHA_CV/blob/main/src/global/resources/img/projects/frameficador.PNG?raw=true",
       title: "Frame Extractor",
-      about: "",
-      technologies: "",
-      status: "",
-    },
-    {
-      img: "",
-      title: "YouTube Video Analizer",
       about: "",
       technologies: "",
       status: "",
