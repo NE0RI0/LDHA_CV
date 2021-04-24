@@ -72,7 +72,14 @@ function Python_info() {
   return (
     <div className="python-div">
       <div className="projects-container">
-        <h1>welcomes</h1>
+        <h1 className='title' >Python</h1>
+        <div className='python-section' >
+          <hr className='g-hr'/>
+          <div className='python-welcome'>
+            <p>Hello hello hello hello hello hello hello </p>
+          </div>
+          <hr className='g-hr'/>
+        </div>
         <CardColumns>
           {Projects.map((project) => (
             <Card className="bg-dark text-white">
@@ -83,7 +90,7 @@ function Python_info() {
                 <Accordion defaultActiveKey="1">
                     <Card className='bg-dark' >
                         <Accordion.Toggle as={Card.Header} eventKey="0">
-                        Click me!
+                        <h5 className='title'> Click me! </h5> 
                         </Accordion.Toggle>
                         <Accordion.Collapse eventKey="0">
                         <Card.Body>Hello! I'm the body</Card.Body>

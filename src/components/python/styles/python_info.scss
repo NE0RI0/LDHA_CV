@@ -4,10 +4,22 @@ h1 {
   margin: 0;
 }
 
+.title{
+  color: $base-color;
+}
+
 .python-div {
   background-color: $base-background;
   margin: 0;
   padding: 1rem;
+}
+
+.python-section{
+  padding: 20px;
+}
+
+.python-welcome{
+  padding: 25px;
 }
 
 .projects-container {
@@ -17,4 +29,8 @@ h1 {
 
 .poroject-Card {
   background-color: $base-background;
+}
+
+.padding-small{
+  padding: 75px;
 }

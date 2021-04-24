@@ -7,14 +7,42 @@ body html {
   padding: 0;
 }
 
+.text-center {
+  text-align: center;
+}
+
+.padding-small {
+  padding: 10px;
+}
+
+.padding-medium {
+  padding: 25px;
+}
+
+.padding-big {
+  padding: 45px;
+}
+
 h1 {
   margin: 0;
+}
+
+.title {
+  color: #39aeab;
 }
 
 .python-div {
   background-color: #121111;
   margin: 0;
   padding: 1rem;
+}
+
+.python-section {
+  padding: 20px;
+}
+
+.python-welcome {
+  padding: 25px;
 }
 
 .projects-container {
@@ -24,5 +52,9 @@ h1 {
 
 .poroject-Card {
   background-color: #121111;
+}
+
+.padding-small {
+  padding: 75px;
 }
 /*# sourceMappingURL=python_info.css.map */

@@ -7,7 +7,7 @@ function React_info() {
   const Projects = [
     {
       img:
-        "https://github.com/NE0RI0/LDHA_CV/blob/main/src/global/resources/img/projects/DroneTerminal.png?raw=true",
+        "https://github.com/NE0RI0/LDHA_CV/blob/main/src/global/resources/img/projects/opticas.png?raw=true",
       title: "Opticas 20-20",
       about: "",
       technologies: "Python, OpenV, Sockets",

@@ -11,8 +11,11 @@ p{
 
 .home-div{
     background-color: rgb(17, 17, 17);
+    padding-bottom: 2rem;
 
 }
+
+
 
 .g-hr{
     height: 1px;
@@ -25,6 +28,10 @@ p{
     color: $base-color;
     font-size: 4rem;
     margin: 0px;
+}
+
+.h-h1 span{
+    color: $base-white;
 }
 
 .h-h2{
@@ -66,6 +73,10 @@ p{
     margin: 0px auto;
 }
 
+.home-myprojects{
+    margin: auto;
+}
+
 .home-aboutme{
     width: 75%;
     margin: 0px auto;
@@ -74,3 +85,22 @@ p{
 .home-content{
     margin: 2rem;
 }
+
+.skills-div{
+    padding: 2rem 0;
+}
+
+.text-center{
+    text-align: center;
+  }
+
+  .align-c{
+    margin: 0 auto;
+    width: 95%;
+    color: $base-color;
+  }
+
+  .align-stars{
+      text-align: right;
+      color: #fdf580;
+  }
