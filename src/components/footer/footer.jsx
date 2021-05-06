@@ -12,7 +12,7 @@ function ContactMe(){
             <hr className='g-hr'/>
             <div className='footer-links'>
 
-                <a className='footer-link'> 
+                <a className='footer-link' href='https://www.linkedin.com/in/luis-daniel-herrera-aguirre-0b8240173'> 
                     <FontAwesomeIcon className='footer-icon' icon={faLinkedin}/>
                     LinkedIn
                 </a>
@@ -22,7 +22,7 @@ function ContactMe(){
                     Phone: (+52) 656-2840193                    
                     </a>
 
-                <a className='footer-link'>
+                <a className='footer-link' href='mailto:0herreraluis0@gmail.com' >
                     <FontAwesomeIcon className='footer-icon' icon={faEnvelopeSquare}/>
                     Email
                     </a>

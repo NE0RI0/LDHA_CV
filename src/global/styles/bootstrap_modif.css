@@ -7,6 +7,22 @@ body html {
   padding: 0;
 }
 
+.text-center {
+  text-align: center;
+}
+
+.padding-small {
+  padding: 10px;
+}
+
+.padding-medium {
+  padding: 25px;
+}
+
+.padding-big {
+  padding: 45px;
+}
+
 /*!
  * Bootstrap v4.6.0 (https://getbootstrap.com/)
  * Copyright 2011-2021 The Bootstrap Authors

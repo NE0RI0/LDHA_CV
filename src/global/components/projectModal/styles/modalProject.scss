@@ -1,0 +1,43 @@
+@import '../../../styles/global.scss';
+
+.modal-div .modal-content{
+    background-color: $light-background;
+    width: 100%;
+  }
+  
+.modal-div .dialogClassName{
+    width: 100%;
+}
+
+.a-title{
+    color: $base-color;
+}
+
+.a-subtitle{
+    color: $base-white;
+    padding: 0;
+    margin: 0;
+
+}
+
+.a-subtitle span{
+    color: $base-color;
+}
+
+p{
+    color: $dark-white;
+}
+
+.acordion-p{
+    padding-left: 25px;
+}
+
+.acordion-p-white{
+    color: $dark-white;
+}
+
+.toogler{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}

@@ -13,6 +13,11 @@
     padding-bottom: 2rem;
 }
 
+.cv-header{
+    display: flex;
+    justify-content: space-between;
+}
+
 .cv-title{
     padding: 1rem 0;
     color: $base-white;
@@ -82,4 +87,8 @@ ul li::before{
 
 .dark-white{
     color: #a5a5a5c7;
+}
+
+.d-btn{
+    padding: 0;
 }

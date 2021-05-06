@@ -7,6 +7,22 @@ body html {
   padding: 0;
 }
 
+.text-center {
+  text-align: center;
+}
+
+.padding-small {
+  padding: 10px;
+}
+
+.padding-medium {
+  padding: 25px;
+}
+
+.padding-big {
+  padding: 45px;
+}
+
 .navibar-div p {
   margin: 0px;
 }
@@ -14,18 +30,40 @@ body html {
 .navibar-div {
   background-color: #39aeab;
   text-align: right;
-  padding-right: 3%;
   font-size: 1.3rem;
   color: #dedede;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
 }
 
 .navibar-icons {
   margin: 0px 1%;
   color: #dedede;
-  color: rgba(212, 255, 250, 0.75);
+  color: #d4fffa;
 }
 
 .navibar-icons:hover {
   color: white;
+}
+
+.home-navi {
+  padding-left: 1%;
+  text-align: left;
+  width: 15%;
+}
+
+.body-navi {
+  width: 70%;
+}
+
+.social-navi {
+  width: 15%;
+  padding-right: 1%;
+}
+
+.navi-text {
+  color: #dedede;
+  color: rgba(212, 255, 250, 0.75);
 }
 /*# sourceMappingURL=navibar.css.map */

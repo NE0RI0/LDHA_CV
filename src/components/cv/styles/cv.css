@@ -7,6 +7,22 @@ body html {
   padding: 0;
 }
 
+.text-center {
+  text-align: center;
+}
+
+.padding-small {
+  padding: 10px;
+}
+
+.padding-medium {
+  padding: 25px;
+}
+
+.padding-big {
+  padding: 45px;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -20,6 +36,15 @@ body html {
   background-color: #121111;
   padding: 1rem;
   padding-bottom: 2rem;
+}
+
+.cv-header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
 }
 
 .cv-title {
@@ -82,5 +107,9 @@ ul li::before {
 
 .dark-white {
   color: #a5a5a5c7;
+}
+
+.d-btn {
+  padding: 0;
 }
 /*# sourceMappingURL=cv.css.map */

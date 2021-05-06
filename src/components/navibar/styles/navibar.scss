@@ -7,17 +7,39 @@
 .navibar-div{
     background-color: $base-color;
     text-align: right;
-    padding-right: 3%;
+    // padding-right: 3%;
     font-size: 1.3rem;
     color: $base-white;
+    display: flex;
 }
 
 .navibar-icons{
     margin: 0px 1%;
     color: $base-white;
-    color: rgba($color: #d4fffa, $alpha: 0.75);
+    color: rgba($color: #d4fffa, $alpha: 1);
 }
 
 .navibar-icons:hover{
     color: rgba($color: #fff, $alpha: 1.0);
 }
+
+.home-navi{
+    padding-left: 1%;
+    text-align: left;
+    width: 15%;
+}
+.body-navi{
+    width: 70%;
+    
+
+}
+.social-navi{
+    width: 15%;
+    padding-right: 1%;
+}
+
+.navi-text{
+    color: $base-white;
+    color: rgb($color: #d4fffa);
+}
+
