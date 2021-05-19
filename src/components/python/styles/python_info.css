@@ -51,10 +51,28 @@ h1 {
 }
 
 .poroject-Card {
-  background-color: #121111;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 75px 0;
 }
 
 .padding-small {
   padding: 75px;
+}
+
+.l-img {
+  height: 200px;
+  margin: auto;
+}
+
+.l-div {
+  width: 35%;
+  padding-right: 10px;
+}
+
+.r-div {
+  width: 55%;
+  padding-left: 5%;
 }
 /*# sourceMappingURL=python_info.css.map */
