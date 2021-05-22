@@ -4,10 +4,22 @@ h1 {
   margin: 0;
 }
 
+.title{
+  color: $base-color;
+}
+
 .python-div {
   background-color: $base-background;
   margin: 0;
   padding: 1rem;
+}
+
+.python-section{
+  padding: 20px;
+}
+
+.python-welcome{
+  padding: 25px;
 }
 
 .projects-container {
@@ -16,5 +28,28 @@ h1 {
 }
 
 .poroject-Card {
-  background-color: $base-background;
+  display: flex;
+  margin: 75px 0;
+}
+
+.padding-small{
+  padding: 75px;
+}
+
+.l-img{
+  height: 200px;
+  margin: auto;
+}
+
+.l-div{
+  width: 35%;
+  padding-right: 10px;
+  overflow: hidden;
+  // background-color: $light-background;
+}
+
+.r-div{
+  width: 55%;
+  padding-left: 5%;
+  // background-color: $light-background;
 }

@@ -8,8 +8,7 @@ import React from "react";
 
 function Rout(){
     return(
-      <div className="App">
-            <React.StrictMode>
+      <div className="App">s
                 <HashRouter>
                     <Router>
                         <Switch>
@@ -21,7 +20,6 @@ function Rout(){
                         </Switch>
                     </Router>
                 </HashRouter>
-            </React.StrictMode>
         </div>
     )
 }
