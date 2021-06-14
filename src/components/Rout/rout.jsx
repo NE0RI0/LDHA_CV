@@ -1,4 +1,4 @@
-import { BrowserRouter as Router, HashRouter, Route, Switch } from "react-router-dom";
+import { HashRouter as Router, Route, Switch } from "react-router-dom";
 import Home from "../home/home";
 import Python_info from '../python/python_info';
 import React_info from '../reactjs/react_info';
@@ -8,18 +8,16 @@ import React from "react";
 
 function Rout(){
     return(
-      <div className="App">
-                <HashRouter>
-                    <Router>
-                        <Switch>
-                        <Route exact path='/' component={Home}/>
-                        <Route exact path='/python' component={Python_info}/>
-                        <Route exact path='/web' component={React_info}/>
-                        <Route exact path='/hardware' component={CPP_info}/>
-                        <Route exact path='/cv' component={CV_info} />
-                        </Switch>
-                    </Router>
-                </HashRouter>
+        <div className="App">
+            <Router>
+                <Switch>
+                <Route exact path='/' component={Home}/>
+                <Route exact path='/python' component={Python_info}/>
+                <Route exact path='/web' component={React_info}/>
+                <Route exact path='/hardware' component={CPP_info}/>
+                <Route exact path='/cv' component={CV_info} />
+                </Switch>
+            </Router>
         </div>
     )
 }
