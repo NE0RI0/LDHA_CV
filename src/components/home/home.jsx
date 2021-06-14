@@ -187,19 +187,19 @@ function Home(){
                 <InfoCard title='Python Development'
                 img='https://github.com/NE0RI0/LDHA_CV/blob/main/src/global/resources/img/info/Python.jpeg?raw=true'
                 text={python_content}
-                direction = 'https://ne0ri0.github.io/LDHA_CV/#/python'
+                direction = 'https://ne0ri0.github.io/LDHA_CV/#/python/'
                 />
                 <hr className='g-hr' />
                 <InfoCard title='Hardware Projects'
                 img='https://hackster.imgix.net/uploads/attachments/1212444/_xnTDBrILpX.blob?auto=compress%2Cformat&w=900&h=675&fit=min'
                 text={hardware_content}
-                direction = 'https://ne0ri0.github.io/LDHA_CV/#/hardware'
+                direction = 'https://ne0ri0.github.io/LDHA_CV/#/hardware/'
                 />
                 <hr className='g-hr' />
                 <InfoCard title='Web Development'
                 img='https://www.smartdatacollective.com/wp-content/uploads/2018/04/react-JS-for-development-training.jpg'
                 text={web_content}
-                direction = 'https://ne0ri0.github.io/LDHA_CV/#/web'
+                direction = 'https://ne0ri0.github.io/LDHA_CV/#/web/'
                 />
                 <hr className='g-hr' />
             </div>
