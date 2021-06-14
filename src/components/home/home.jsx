@@ -34,8 +34,8 @@ function Home(){
                     <hr className='g-hr'/>
                     <div className='skills-div align-c ' >
                         <Container>
-                            <Row>
-                                <Col>
+                            <Row >
+                                <Col xs={12} md={12} lg={6}>
                                     <Row>
                                     <Col> <h4>Python</h4></Col>
                                     <Col> <p className='align-stars' >
@@ -51,7 +51,7 @@ function Home(){
                                     <Col> <p className='' > As a python developer i've been responsable of writing and testing code, integrating applications with third-party web services, improve responsiveness and overall performance, assess and prioritize feature requests and coordinate with internal teams to understand user requirements and provide technical solutions  </p></Col>
                                     </Row>
                                 </Col>
-                                <Col>
+                                <Col xs={12} md={12} lg={6}>
                                     <Row>
                                     <Col> <h4>C++</h4></Col>
                                     <Col>
@@ -70,7 +70,7 @@ function Home(){
                             </Row>
                             <Row>
                                 
-                                <Col>
+                                <Col xs={12} md={12} lg={6}>
                                     <Row>
                                     <Col> <h4>Linux</h4></Col>
                                     <Col>
@@ -86,7 +86,7 @@ function Home(){
                                     <Col> <p className='' > Been working with linux systems since 2016. I've used it as my main development environment, also i use it on all the companion computers in the projects that require one, and i currently am running a local server that handle all  my database related tasks. </p></Col>
                                     </Row>
                                 </Col>
-                                <Col>
+                                <Col xs={12} md={12} lg={6}>
                                     <Row>
                                     <Col> <h4>RaspberryPi</h4></Col>
                                     <Col>
@@ -105,7 +105,7 @@ function Home(){
                                 </Col>
                             </Row>
                             <Row>
-                                <Col>
+                                <Col xs={12} md={12} lg={6}>
                                     <Row>
                                     <Col> <h4>Drone Development (Ardupilot)</h4></Col>
                                     <Col><p className='align-stars' >
@@ -121,7 +121,7 @@ function Home(){
                                     I have had to add functions to them, installing companion computers, to add sensors, mechanisms, or make them capable of taking decisions by themselves. </p></Col>
                                     </Row>
                                 </Col>
-                                <Col>
+                                <Col xs={12} md={12} lg={6}>
                                     <Row>
                                     <Col> <h4>ReactJs</h4></Col>
                                     <Col>
@@ -141,7 +141,7 @@ function Home(){
                             </Row>
                             <Row>
                                 
-                                <Col>
+                                <Col xs={12} md={12} lg={6}>
                                     <Row>
                                     <Col> <h4>OpenCV</h4></Col>
                                     <Col><p className='align-stars' >
@@ -155,7 +155,7 @@ function Home(){
                                     <Col> <p className='' > I've used this library on multiple projects for facial recognition, mobile robotics, object detection and movement detection. </p></Col>
                                     </Row>
                                 </Col>
-                                <Col>
+                                <Col xs={12} md={12} lg={6}>
                                     <Row>
                                     <Col> <h4>Arduino</h4></Col>
                                     <Col><p className='align-stars' >

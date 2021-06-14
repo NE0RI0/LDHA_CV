@@ -15,10 +15,11 @@ display: flex;
 }
 
 .info-title{
-    margin: 1rem 0;
+    // margin: 1rem 0;
     color: $base-white;
 }
 
 .info-text{
+    text-align: center;
     color: #afafaf;
 }
