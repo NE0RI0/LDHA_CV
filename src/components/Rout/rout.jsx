@@ -8,7 +8,7 @@ import React from "react";
 
 function Rout(){
     return(
-      <div className="App">s
+      <div className="App">
                 <HashRouter>
                     <Router>
                         <Switch>
