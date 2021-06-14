@@ -14,9 +14,9 @@ const DropdownProjects=()=>{
       title="Projects"
       id="dropdown-menu-align-right"
     >
-      <Dropdown.Item href='./python' eventKey="1"> Python</Dropdown.Item>
-      <Dropdown.Item href='./web'  eventKey="2">Web</Dropdown.Item>
-      <Dropdown.Item href='./hardware'  eventKey="3">Hardware</Dropdown.Item>
+      <Dropdown.Item href='./#/python' eventKey="1"> Python</Dropdown.Item>
+      <Dropdown.Item href='./#/web'  eventKey="2">Web</Dropdown.Item>
+      <Dropdown.Item href='./#/hardware'  eventKey="3">Hardware</Dropdown.Item>
     </DropdownButton>
     )
 }
@@ -25,19 +25,19 @@ function NaviBar(){
     return(
         <div className='navibar-div' >
             <div className='home-navi' >
-                <a href='./'> <FontAwesomeIcon  className='navibar-icons' icon={faHome} /> </a>
+                <a href='./#/'> <FontAwesomeIcon  className='navibar-icons' icon={faHome} /> </a>
             </div>
             <div className='body-navi' >
 
             <Nav fill='true' className="justify-content-center" activeKey="/home">
               <Nav.Item>
-                  <Button href='./' className='navibar-icons' >Home</Button>
+                  <Button href='./#/' className='navibar-icons' >Home</Button>
               </Nav.Item>
               <Nav.Item>
-                  <Button href='./cv' className='navibar-icons'>Resume</Button>
+                  <Button href='./#/cv' className='navibar-icons'>Resume</Button>
               </Nav.Item>
               <Nav.Item>
-              <Button href='./#aboutme' className='navibar-icons'>AboutMe</Button>
+              <Button href='./#/#aboutme' className='navibar-icons'>AboutMe</Button>
               </Nav.Item>
               <Nav.Item>
                 <DropdownProjects  className='navibar-icons'/>

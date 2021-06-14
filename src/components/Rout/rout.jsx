@@ -10,13 +10,11 @@ function Rout(){
     return(
         <div className="App">
             <Router>
-
                 <Route exact path='/' component={Home}/>
                 <Route exact path='/python' component={Python_info}/>
                 <Route exact path='/web' component={React_info}/>
                 <Route exact path='/hardware' component={CPP_info}/>
                 <Route exact path='/cv' component={CV_info} />
-
             </Router>
         </div>
     )
