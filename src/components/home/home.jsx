@@ -174,7 +174,7 @@ function Home(){
                             
                         </Container>
 
-                        <Button  className='cv-button' href='./cv' >Complete Resume</Button>
+                        <Button  className='cv-button' href='./#/cv' >Complete Resume</Button>
 
                     </div>
                     <hr className='g-hr'/>
