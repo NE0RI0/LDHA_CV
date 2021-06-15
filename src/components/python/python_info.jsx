@@ -192,20 +192,20 @@ function Python_info() {
               <div className='poroject-Card' >
                 <Row>
                   <Col md={12} lg={6}>
-                  {/* <div className='l-div' > */}
+
                     <center>
                       <img className='l-img' src={project.img}></img>
                     </center>
-                  {/* </div> */}
+
                   </Col>
                   <Col md={12} lg = {6}>
-                  {/* <div className='r-div' > */}
+
                     <center>
                     <h1 className='h-h2' >{project.title}</h1>
-                    <p> {project.data.about} </p>
+                    <p>{project.data.about}</p>
                     <ProjectModal data={project.data}/>  
                     </center>
-                  {/* </div>  */}
+
                   </Col> 
                 </Row>            
               </div>
