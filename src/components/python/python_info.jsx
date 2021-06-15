@@ -2,6 +2,7 @@ import React from "react";
 import { Card, CardColumns, Accordion, Button } from "react-bootstrap";
 import ProjectModal from "../../global/components/projectModal/modalProject";
 import "./styles/python_info.css";
+import { Col, Row } from 'react-bootstrap';
 
 function Python_info() {
   const Projects = [
@@ -188,28 +189,28 @@ function Python_info() {
         <div>
           {Projects.map((project) => (
             <div>
-            <div className='poroject-Card' >
-              <div className='l-div' >
-                <center>
-                  <img className='l-img' src={project.img}></img>
-                </center>
+              <div className='poroject-Card' >
+                <Row>
+                  <Col md={12} lg={6}>
+                  {/* <div className='l-div' > */}
+                    <center>
+                      <img className='l-img' src={project.img}></img>
+                    </center>
+                  {/* </div> */}
+                  </Col>
+                  <Col md={12} lg = {6}>
+                  {/* <div className='r-div' > */}
+                    <center>
+                    <h1 className='h-h2' >{project.title}</h1>
+                    <p> {project.data.about} </p>
+                    <ProjectModal data={project.data}/>  
+                    </center>
+                  {/* </div>  */}
+                  </Col> 
+                </Row>            
               </div>
-              <div className='r-div' >
-                <h1 className='h-h2' >{project.title}</h1>
-                <p>this project is a something that works for something else at someewere</p>
-                <ProjectModal data={project.data}/>  
-              </div>              
+              <hr className='g-hr'/>
             </div>
-            <hr className='g-hr'/>
-            </div>
-            // <Card className="bg-dark text-white text-center">
-            //   <Card.Img variant="top" src={project.img} />
-            //   <Card.Body className="project-card">
-            //     <Card.Title>{project.title}</Card.Title>
-            //       <ProjectModal data={project.data}/>               
-            //   </Card.Body>
-              
-            // </Card>
           ))}
         </div>
       </div>
