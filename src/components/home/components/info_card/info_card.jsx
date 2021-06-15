@@ -10,20 +10,24 @@ function handleClick(name){
 
 export const InfoCard = ({title, img, text, direction}) =>{
     return(
-        <Row  onClick={() => handleClick('sucess')} >
-                <Col xs = {12} lg={4}>
+        <div className='info-card-div' onClick={() => handleClick('sucess')} >
+            <Row>
+                <Col xs = {12} md={4}>
                     <center>
                     <img className='info-img' src={img} alt=""/>
                     </center>
                 </Col>
                 {/* <Col md = {0} lg={1}></Col> */}
-                <Col xs={12} lg={8}>
+                <Col xs={12} md={8}>
+                    <div className='content-div'>
                     <center>
                     <h3 className='info-title' > {title} </h3>
                     <p className='info-text' >  {text} </p>
                     <Button variant="primary" href={direction} >Go to {title} page. </Button>
                     </center>
+                    </div>
                 </Col>
-        </Row>
+            </Row>
+        </div>
     )
 }

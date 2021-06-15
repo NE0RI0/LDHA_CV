@@ -15,7 +15,7 @@ function Home(){
 
     return(
         <div className='home-div'>
-             <h1  className='h-h1 text-center padding-small' > <span> Luis Daniel </span> Herrera Aguirre</h1>
+            <h1  className='h-h1 text-center padding-small' > <span> Luis Daniel </span> Herrera Aguirre</h1>
             <hr className='g-hr' />
             <div className='home-aboutme' id='aboutme' >
                 <h2 className='subtitle'> <span>About</span> Me </h2>

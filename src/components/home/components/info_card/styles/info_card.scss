@@ -1,14 +1,13 @@
 @import '../../../../../global/styles/global.scss';
 .info-card-div div{
-    margin: 0 1rem;
+    // margin: 0 1rem;
 }
 
 .info-card-div{
-display: flex;
+    padding: 0.7rem 0;
 }
 
 .info-img{
-    margin: 5%;
     width: 100%;
     height: auto;
 
@@ -24,3 +23,7 @@ display: flex;
     color: #afafaf;
 }
 
+.content-div{
+    width: 100%;
+    padding: 0.3rem 0;
+}
