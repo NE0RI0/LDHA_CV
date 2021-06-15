@@ -37,12 +37,13 @@ h1 {
   padding: 1rem;
 }
 
-.python-section {
-  padding: 20px;
+.intro-p {
+  padding: 1rem 0;
+  margin: 0;
 }
 
-.python-welcome {
-  padding: 25px;
+.project-card {
+  padding: 1rem 0;
 }
 
 .projects-container {
@@ -50,30 +51,9 @@ h1 {
   margin: 0 auto;
 }
 
-.poroject-Card {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  margin: 75px 0;
-}
-
-.padding-small {
-  padding: 75px;
-}
-
 .l-img {
   height: auto;
-  width: 75%;
-  margin: auto;
-}
-
-.l-div {
-  width: 35%;
-  padding-right: 10px;
-}
-
-.r-div {
-  width: 55%;
-  padding-left: 5%;
+  width: 100%;
+  padding: 2rem 0;
 }
 /*# sourceMappingURL=python_info.css.map */

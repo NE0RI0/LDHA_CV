@@ -179,17 +179,12 @@ function Python_info() {
     <div className="python-div">
       <div className="projects-container">
         <h1 className='title' >Python</h1>
-        <div className='python-section' >
-          <hr className='g-hr'/>
-          <div className='python-welcome'>
-            <p>As a python developer i've been responsable of writing and testing code, integrating applications with third-party web services, improve responsiveness and overall performance, assess and prioritize feature requests and coordinate with internal teams to understand user requirements and provide technical solutions</p>
-          </div>
-          <hr className='g-hr'/>
-        </div>
+        <hr className='g-hr'/>
+        <p className='intro-p'>As a python developer i've been responsable of writing and testing code, integrating applications with third-party web services, improve responsiveness and overall performance, assess and prioritize feature requests and coordinate with internal teams to understand user requirements and provide technical solutions</p>
+        <hr className='g-hr'/>
         <div>
           {Projects.map((project) => (
-            <div>
-              <div className='poroject-Card' >
+            <div className='project-card'>
                 <Row>
                   <Col md={12} lg={6}>
                     <center>
@@ -199,12 +194,11 @@ function Python_info() {
                   <Col md={12} lg = {6}>
                     <center>
                       <h1 className='h-h2' >{project.title}</h1>
-                      <p className='about-p'>{project.data.about}</p>
+                      <p>{project.data.about}</p>
                       <ProjectModal data={project.data}/>  
                     </center>
                   </Col> 
-                </Row>            
-              </div>
+                </Row>
               <hr className='g-hr'/>
             </div>
           ))}
